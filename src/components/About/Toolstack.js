@@ -5,6 +5,7 @@ import {
   SiVercel,
   SiGithub,
   SiGit,
+  SiNpm,
  
 } from "react-icons/si";
 
@@ -20,6 +21,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiGit/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNpm/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVercel />

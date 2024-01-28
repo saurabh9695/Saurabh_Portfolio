@@ -9,7 +9,7 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Saurabh Kushwaha </span>
-            currently pursuing my undergraduate studies in Electronics and Communication Engineering (ECE) at the esteemed <span className="purple">  Indian Institute of Information Technology, Nagpur (IIIN).</span>
+            currently pursuing my undergraduate studies in Electronics and Communication Engineering (ECE) at the esteemed <span className="purple">  Indian Institute of Information Technology, Nagpur (IIITN).</span>
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
