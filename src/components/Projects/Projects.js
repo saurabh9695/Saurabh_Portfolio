@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import todo from "../../Assets/Projects/todo.jpg";
 import ecom from "../../Assets/Projects/ecom.jpg";
 import curr from "../../Assets/Projects/curr.jpg";
 import admin from "../../Assets/Projects/admin.jpg";
@@ -34,12 +34,13 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={todo}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink=""
-              demoLink=""
+              title="ToDo-App"
+              description="
+              Built a user-friendly ToDo app using JavaScript, React, and MongoDB, enabling easy task management by adding, updating, and deleting tasks hassle-free, ensuring a seamless and efficient experience."
+              ghLink="https://github.com/saurabh9695/ToDo_App"
+              demoLink="https://to-do-app-three-lime.vercel.app/"
             />
           </Col>
 
