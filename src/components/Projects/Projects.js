@@ -3,11 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import todo from "../../Assets/Projects/todo.jpg";
+import you from "../../Assets/Projects/you.jpg";
 import ecom from "../../Assets/Projects/ecom.jpg";
 import curr from "../../Assets/Projects/curr.jpg";
 import admin from "../../Assets/Projects/admin.jpg";
 import weather from "../../Assets/Projects/weather.jpg";
-import chat from "../../Assets/Projects/chat.jpg";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -22,13 +22,16 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chat}
+              imgPath={you}
               isBlog={false}
-              title="Web-Chat-Application"
+              title="Youtube-Clone"
               description=
-              "Introducing our Web Chat Application, a versatile platform designed for seamless and real-time communication. Empower users to connect, collaborate, and share information effortlessly with this intuitive and user-friendly chat solution. Elevate your online engagement and foster dynamic conversations with the Web Chat Application."
-              ghLink="https://github.com/saurabh9695/WebChat-Application"
-              // demoLink=""
+              "Developed a YouTube clone project utilizing React and MUI library
+               for UI components, with responsive design facilitated by JavaScript.
+                Integrated React Router for navigation and Axios for backend data retrieval, 
+                while implementing seamless video playback via React Player for enhanced user experience."
+              ghLink="https://github.com/saurabh9695/Youtube_Clone"
+              demoLink="https://youtube-clone-rosy-xi.vercel.app/"
             />
           </Col>
 
@@ -38,7 +41,8 @@ function Projects() {
               isBlog={false}
               title="ToDo-App"
               description="
-              Built a user-friendly ToDo app using JavaScript, React, and MongoDB, enabling easy task management by adding, updating, and deleting tasks hassle-free, ensuring a seamless and efficient experience."
+              Built a user-friendly ToDo app using JavaScript, React, and MongoDB, enabling easy task management by
+               adding, updating, and deleting tasks hassle-free, ensuring a seamless and efficient experience."
               ghLink="https://github.com/saurabh9695/ToDo_App"
               demoLink="https://to-do-app-three-lime.vercel.app/"
             />
